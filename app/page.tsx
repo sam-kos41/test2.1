@@ -4,6 +4,8 @@ import React, { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link'; // Import Link for internal routing
 import { FaFileAlt } from 'react-icons/fa'; // Import icon for the thesis link
+import ClusterMap from './cluster_map'; // Correct path based on the file structure
+
 
 const HomePage = () => {
   const [activeIndex, setActiveIndex] = useState<number | null>(null);
