@@ -94,7 +94,7 @@ const HomePage = () => {
               My research focuses on Human-AI interactions, leveraging both quantitative and qualitative methods to enhance usability and efficiency of AI-driven systems. A key strength lies in Bayesian statistics, employed in my thesis research to assess healthcare chatbot interactions.
             </p>
             <p className="text-lg font-light text-gray-700 mb-8">
-              In addition to Human Factors, my healthcare research focuses on pediatric emergency department visits, applying statistical models to improve care delivery. I recently defended my thesis, which explored healthcare chatbots' information presentation.
+              In addition to Human Factors, my healthcare research focuses on pediatric emergency department visits, applying statistical models to improve care delivery. I recently defended my thesis, which explored healthcare chatbots&apos; information presentation.
             </p>
           </div>
         </div>
