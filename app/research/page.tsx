@@ -1,7 +1,7 @@
 'use client';
 import React from 'react';
-import Link from 'next/link'; // Import Next.js Link for client-side navigation
-import Image from 'next/image'; // Use Next.js Image for optimization
+import Link from 'next/link'; 
+import Image from 'next/image'; 
 
 const ResearchPage = () => {
   return (
@@ -9,10 +9,7 @@ const ResearchPage = () => {
       {/* Sticky Navigation with Name and Links */}
       <nav className="bg-white py-4 shadow-md fixed top-0 left-0 w-full z-50 text-center">
         <div className="container mx-auto">
-          {/* Name Section */}
           <h1 className="text-3xl font-bold">Samuel N. Koscelny</h1>
-
-          {/* Navigation Links */}
           <div className="mt-4 space-x-8 font-sans text-lg flex justify-center">
             <Link href="/" passHref>
               <a className="hover:text-[#2541B2] hover:underline">Home</a>
@@ -45,8 +42,8 @@ const ResearchPage = () => {
               <a href="https://cecas.clemson.edu/east/" className="text-[#EA8F1F] underline hover:text-[#FF8800]">Visit Lab</a>
             </h2>
 
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-              {/* Project 1 with Static Image */}
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-12"> {/* Increased gap */}
+              {/* Project 1 */}
               <div className="bg-white shadow-lg rounded-lg p-6">
                 <Image
                   src="/bayesian_project.png"
@@ -61,7 +58,7 @@ const ResearchPage = () => {
                 </p>
               </div>
 
-              {/* Project 2 with Static Image */}
+              {/* Project 2 */}
               <div className="bg-white shadow-lg rounded-lg p-6">
                 <Image
                   src="/pfb_figure.png"
@@ -76,7 +73,7 @@ const ResearchPage = () => {
                 </p>
               </div>
 
-              {/* Project 3 with Static Image */}
+              {/* Project 3 */}
               <div className="bg-white shadow-lg rounded-lg p-6">
                 <Image
                   src="/ED_infographic.png"
@@ -100,7 +97,6 @@ const ResearchPage = () => {
               <a href="https://sites.google.com/view/hseas-lab/" className="text-[#EA8F1F] underline hover:text-[#FF8800]">Visit Lab</a>
             </h2>
 
-            {/* Single Project with Static Image */}
             <div className="bg-white shadow-lg rounded-lg p-6 mx-auto max-w-2xl">
               <Image
                 src="/Gesture_picture.png"
