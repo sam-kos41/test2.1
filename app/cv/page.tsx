@@ -45,7 +45,7 @@ const CVPage = () => {
 
           {/* Download Button */}
           <a
-            href="public/CV_Sam_KoscelnyCV.pdf" // Replace with the actual path to your CV PDF file
+            href="public/CV_Sam_Koscelny.pdf" // Replace with the actual path to your CV PDF file
             download
             className="bg-[#EA8F1F] text-white px-8 py-4 rounded-lg shadow-lg hover:bg-[#FF8800] text-xl font-sans inline-block"
           >
