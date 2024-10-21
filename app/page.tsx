@@ -5,7 +5,6 @@ import Image from 'next/image';
 import Link from 'next/link'; // Import Link for internal routing
 import { FaFileAlt } from 'react-icons/fa'; // Import icon for the thesis link
 
-
 const HomePage = () => {
   const [activeIndex, setActiveIndex] = useState<number | null>(null);
 
@@ -170,7 +169,6 @@ const HomePage = () => {
         </div>
       </section>
 
-      
       {/* Footer */}
       <footer className="bg-[#A8AB9B] text-black py-4 text-center">
         <p>&copy; Created & designed by Sam Koscelny</p>
@@ -180,4 +178,3 @@ const HomePage = () => {
 };
 
 export default HomePage;
-
