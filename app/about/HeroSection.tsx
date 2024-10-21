@@ -1,3 +1,5 @@
+import React from 'react'; // Import React to use JSX
+
 export default function HeroSection() {
   return (
     <div className="min-h-screen flex items-center justify-center bg-[#F5F5F5]">
