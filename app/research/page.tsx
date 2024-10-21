@@ -49,7 +49,7 @@ const ResearchPage = () => {
               {/* Project 1 with Static Image */}
               <div className="bg-white shadow-lg rounded-lg p-6">
                 <Image
-                  src="https://placehold.co/300x200?text=Chatbot+1"
+                  src="/bayesian_project.png"
                   alt="Bayesian Chatbot Models"
                   width={300}
                   height={200}
@@ -64,7 +64,7 @@ const ResearchPage = () => {
               {/* Project 2 with Static Image */}
               <div className="bg-white shadow-lg rounded-lg p-6">
                 <Image
-                  src="https://placehold.co/300x200?text=Thematic+1"
+                  src="/pfb_figure.png"
                   alt="Thematic Analysis in Human-AI Interaction"
                   width={300}
                   height={200}
@@ -79,7 +79,7 @@ const ResearchPage = () => {
               {/* Project 3 with Static Image */}
               <div className="bg-white shadow-lg rounded-lg p-6">
                 <Image
-                  src="https://placehold.co/300x200?text=BigData+1"
+                  src="/ED_infographic.png"
                   alt="Big Data Healthcare Analytics"
                   width={300}
                   height={200}
@@ -103,7 +103,7 @@ const ResearchPage = () => {
             {/* Single Project with Static Image */}
             <div className="bg-white shadow-lg rounded-lg p-6 mx-auto max-w-2xl">
               <Image
-                src="https://placehold.co/300x200?text=Gesture+1"
+                src="/Gesture_picture.png"
                 alt="Gesture Study Research"
                 width={300}
                 height={200}
