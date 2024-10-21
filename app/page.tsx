@@ -49,10 +49,10 @@ const HomePage = () => {
           
           {/* Research Keywords */}
           <ul className="text-base mb-8 font-light text-gray-700 space-y-2">
-            <li>Bayesian statistics for user behavior modeling</li>
-            <li>AI-driven healthcare informatics</li>
-            <li>Quantitative models evaluating user interaction</li>
-            <li>Psychological constructs in human-AI interaction</li>
+            <li>Bayesian hierarhcical regression for evaluating user interaction</li>
+            <li>Quantitative methods for user behavior modeling interaction</li>
+            <li>Psychological constructs impacting human-AI interaction</li>
+            <li>Big data healthcare informatics</li>
           </ul>
 
           {/* Thesis Section */}
