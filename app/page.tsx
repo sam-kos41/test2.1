@@ -169,6 +169,14 @@ const HomePage = () => {
         </div>
       </section>
 
+      {/* Website Traffic Section */}
+      <section className="bg-white py-16">
+        <div className="container mx-auto text-center">
+          <h2 className="text-3xl font-bold mb-4">Website Traffic Map</h2>
+          <ClusterMap /> {/* Import the ClusterMap component */}
+        </div>
+      </section>
+
       {/* Footer */}
       <footer className="bg-[#A8AB9B] text-black py-4 text-center">
         <p>&copy; Created & designed by Sam Koscelny</p>
