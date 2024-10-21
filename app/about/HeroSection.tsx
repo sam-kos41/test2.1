@@ -1,4 +1,5 @@
 import React from 'react'; // Import React to use JSX
+import { FaLinkedin } from 'react-icons/fa'; // Import the LinkedIn icon
 
 export default function HeroSection() {
   return (
@@ -25,6 +26,16 @@ export default function HeroSection() {
           <p className="text-base text-black leading-relaxed text-justify mt-4">
             As I continue my PhD journey, I am eager to further develop my expertise in advanced research methods and drive innovation in both technology and healthcare systems.
           </p>
+
+          {/* LinkedIn Link */}
+          <a
+            href="https://www.linkedin.com/in/sam-koscelny-2750b718a/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block mt-4 text-[#EA8F1F] hover:text-[#FF8800] text-lg"
+          >
+            <FaLinkedin className="inline mr-2" /> Connect on LinkedIn
+          </a>
         </div>
       </div>
     </div>
