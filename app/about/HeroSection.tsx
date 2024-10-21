@@ -5,7 +5,7 @@ export default function HeroSection() {
         {/* Column 1 - Image on the left */}
         <div className="flex items-center justify-center">
           <img 
-            src="/path/to/image.jpg" 
+            src="public/SK_Headshot_professional.png" 
             alt="Sam Koscelny" 
             className="rounded-full w-64 h-64 object-cover shadow-lg"
           />
