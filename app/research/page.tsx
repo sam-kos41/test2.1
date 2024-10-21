@@ -42,15 +42,15 @@ const ResearchPage = () => {
               <a href="https://cecas.clemson.edu/east/" className="text-[#EA8F1F] underline hover:text-[#FF8800]">Visit Lab</a>
             </h2>
 
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-12"> {/* Increased gap */}
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-12"> 
               {/* Project 1 */}
               <div className="bg-white shadow-lg rounded-lg p-6">
                 <Image
                   src="/bayesian_project.png"
                   alt="Bayesian Chatbot Models"
                   width={300}
-                  height={200}
-                  className="w-full h-full object-cover rounded-md"
+                  height={400} // Adjusted proportions
+                  className="w-full h-auto object-cover rounded-md"
                 />
                 <h3 className="text-xl font-bold mb-2">Bayesian Chatbot Models</h3>
                 <p className="text-base">
@@ -63,9 +63,9 @@ const ResearchPage = () => {
                 <Image
                   src="/pfb_figure.png"
                   alt="Thematic Analysis in Human-AI Interaction"
-                  width={300}
-                  height={200}
-                  className="w-full h-full object-cover rounded-md"
+                  width={425}  // 8.5 width
+                  height={172}  // 3.44 height
+                  className="w-full h-auto object-contain rounded-md"
                 />
                 <h3 className="text-xl font-bold mb-2">Thematic Analysis in Human-AI Interaction</h3>
                 <p className="text-base">
@@ -78,9 +78,9 @@ const ResearchPage = () => {
                 <Image
                   src="/ED_infographic.png"
                   alt="Big Data Healthcare Analytics"
-                  width={300}
-                  height={200}
-                  className="w-full h-full object-cover rounded-md"
+                  width={459}  // 7.66 width
+                  height={339}  // 5.66 height
+                  className="w-full h-auto object-contain rounded-md"
                 />
                 <h3 className="text-xl font-bold mb-2">Big Data Healthcare Analytics</h3>
                 <p className="text-base">
@@ -123,3 +123,4 @@ const ResearchPage = () => {
 };
 
 export default ResearchPage;
+
