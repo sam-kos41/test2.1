@@ -9,7 +9,7 @@ export default function HeroSection() {
           <img 
             src="/SK_Headshot_professional.png" 
             alt="Sam Koscelny" 
-            className="rounded-full w-80 h-80 object-cover shadow-lg" // Enlarged the image
+            className="w-80 h-auto object-cover shadow-lg"  // Removed 'rounded-full'
           />
         </div>
 
