@@ -49,7 +49,7 @@ const HomePage = () => {
           
           {/* Research Keywords */}
           <ul className="text-base mb-8 font-light text-gray-700 space-y-2">
-            <li>Bayesian hierarhcical regression for evaluating user interaction</li>
+            <li>Bayesian hierarchical regression for evaluating user interaction</li>
             <li>Quantitative methods for user behavior modeling interaction</li>
             <li>Psychological constructs impacting human-AI interaction</li>
             <li>Big data healthcare informatics</li>
