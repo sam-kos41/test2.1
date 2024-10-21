@@ -65,8 +65,8 @@ const ResearchPage = () => {
                   alt="Thematic Analysis in Human-AI Interaction"
                   width={510}  // 8.5 width
                   height={384}  // 6.39 height
-                  className="w-full h-auto object-contain rounded-md"
-                />
+                  className="w-full h-auto object-contain rounded-md mb-6"  // Added margin-bottom to create space
+                  />
                 <h3 className="text-xl font-bold mt-4 mb-2">Thematic Analysis in Human-AI Interaction</h3>
                 <p className="text-base">
                   Explored user experience and perceptions through thematic analysis of chatbot interactions. 
