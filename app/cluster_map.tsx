@@ -1,5 +1,4 @@
-// components/ClusterMap.tsx
-"use client"; // Make sure this is a client-side component
+"use client"; 
 
 import { useEffect } from 'react';
 
