@@ -47,12 +47,12 @@ const ResearchPage = () => {
               <div className="bg-white shadow-lg rounded-lg p-6">
                 <Image
                   src="/bayesian_project.png"
-                  alt="Bayesian Approach to Evaluating Human-AI Interaction"
+                  alt="Bayesian Approach to User Behavior Modeling"
                   width={300}
                   height={400} // Proportions for this image
                   className="w-full h-auto object-cover rounded-md"
                 />
-                <h3 className="text-xl font-bold mb-2">Bayesian Approach to Evaluating Human-AI Interaction</h3>
+                <h3 className="text-xl font-bold mb-2">Bayesian Approach to User Behavior Modeling</h3>
                 <p className="text-base">
                   Evaluated healthcare chatbot information presentation styles through Bayesian hierarchical regression. 
                 </p>
