@@ -37,7 +37,7 @@ const CVPage = () => {
         <div className="container mx-auto">
           {/* Download Text */}
           <p className="text-1xl font-light text-gray-700 mb-4">
-            Click here to download
+            Click below to download
           </p>
           <h2 className="text-3xl font-extrabold mb-6 underline">
             Sam Koscelny&apos;s CV
