@@ -49,7 +49,7 @@ const ResearchPage = () => {
                   src="/bayesian_project.png"
                   alt="Bayesian Chatbot Models"
                   width={300}
-                  height={400} // Adjusted proportions
+                  height={400} // Proportions for this image
                   className="w-full h-auto object-cover rounded-md"
                 />
                 <h3 className="text-xl font-bold mb-2">Bayesian Chatbot Models</h3>
@@ -63,8 +63,8 @@ const ResearchPage = () => {
                 <Image
                   src="/pfb_figure.png"
                   alt="Thematic Analysis in Human-AI Interaction"
-                  width={425}  // 8.5 width
-                  height={172}  // 3.44 height
+                  width={510}  // 8.5 width
+                  height={384}  // 6.39 height
                   className="w-full h-auto object-contain rounded-md"
                 />
                 <h3 className="text-xl font-bold mb-2">Thematic Analysis in Human-AI Interaction</h3>
@@ -82,7 +82,7 @@ const ResearchPage = () => {
                   height={339}  // 5.66 height
                   className="w-full h-auto object-contain rounded-md"
                 />
-                <h3 className="text-xl font-bold mb-2">Big Data Healthcare Analytics</h3>
+                <h3 className="text-xl font-bold mt-4 mb-2">Big Data Healthcare Analytics</h3> {/* Added margin-top to push down the text */}
                 <p className="text-base">
                   Investigated pediatric patient characteristics and outcomes using big data analytics.
                 </p>
@@ -123,4 +123,3 @@ const ResearchPage = () => {
 };
 
 export default ResearchPage;
-
