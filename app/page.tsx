@@ -72,7 +72,7 @@ const HomePage = () => {
         </div>
         <div className="lg:w-5/12 mt-8 lg:mt-0">
           <Image 
-            src="/SK_Headshot2.jpg" 
+            src="/SK_Headshot_other.jpg" 
             alt="Samuel Koscelny" 
             width={400}  
             height={400} 
