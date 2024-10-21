@@ -67,7 +67,7 @@ const ResearchPage = () => {
                   height={384}  // 6.39 height
                   className="w-full h-auto object-contain rounded-md"
                 />
-                <h3 className="text-xl font-bold mb-2">Thematic Analysis in Human-AI Interaction</h3>
+                <h3 className="text-xl font-bold mt-4 mb-2">Thematic Analysis in Human-AI Interaction</h3>
                 <p className="text-base">
                   Explored user experience and perceptions through thematic analysis of chatbot interactions. 
                 </p>
