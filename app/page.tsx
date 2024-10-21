@@ -45,7 +45,7 @@ const HomePage = () => {
       <section className="pt-32 flex flex-col lg:flex-row justify-between items-center py-16 px-4 lg:px-24 bg-white">
         <div className="lg:w-1/2">
           <h1 className="text-5xl font-extrabold mb-4">Samuel N. Koscelny</h1>
-          <p className="text-lg mb-6">Ph.D. Candidate | Graduate Research Assistant</p>
+          <p className="text-lg mb-6">Ph.D. Student | Graduate Research Assistant</p>
           
           {/* Research Keywords */}
           <ul className="text-base mb-8 font-light text-gray-700 space-y-2">
